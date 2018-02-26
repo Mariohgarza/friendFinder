@@ -23,7 +23,7 @@ module.exports = function(app) {
 
     if(req.body['scores[]']){
       scores  = req.body['scores[]'];
-      console.log("socres from survey data: " + scores);
+      console.log("scores from survey data: " + scores);
     }
         else{
           scores = req.body.scores
