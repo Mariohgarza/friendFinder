@@ -56,6 +56,8 @@ module.exports = function(app) {
           jsonResult.push(friendsList[i]);
         }
       }
+ // 
+
       //console.log(jsonResult);
       friendsList.push(req.body);
       //This is how we finish post calls **** ask TA's
