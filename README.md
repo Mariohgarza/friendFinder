@@ -6,8 +6,15 @@ This app only needs your name an a picture URL follow
 By simple answering 10 short questions base on a 1-5 scale  1 being completly disagree and 5 strongly agree ! 
 and the magic happens -  we pair you with another great person just as awesome as you. 
  ## Questions ... 
-Click on my video for a quick demo of this app 
- [![Demo friend finder](https://img.youtube.com/vi/DH35floT5YE/0.jpg)](https://youtu.be/i5nJgS2ikXA)
+Click on my video for a quick demo of this app
+
+
+
+
+
+
+
+ [![Demo friend finder](https://img.youtube.com/vi/i5nJgS2ikXA/0.jpg)](https://youtu.be/i5nJgS2ikXA)
  
  ## No time for the video , no problem here is a list of steps to help us use our a new app! 
  
