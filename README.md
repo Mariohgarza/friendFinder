@@ -20,14 +20,19 @@ Click on my video for a quick demo of this app
  
 * We first enter our name and a picture.
 * Answer all of the questions 
-* Click summit for an inmediate responses.
+* Click summit for an inmmediate response.
 * On the buttom we can navigate to 2 pages 1- to the json page of our save and brand new friends  2- Go to here my repo for more  code details.
+
+##  New Technologies 
+* node and node express 
+* Heroku for deployment 
+* filing system and routings
 
 
 # BONUS FEATURES
 
 * Redirect the user to the homepage (the one with the -go to survey button- 
-* Rename the url after users accident of writing more stuff in the url example - localhost:8080/ilovedogs/survey -Rename to localhost:8080
+* Rename the url after users accident of writing more stuff in the url- example - localhost:8080/ilovedogs/survey -Rename to localhost:8080
 * If user answers have no match , I prompt a lonely sad message with a sad img aswell.
 
 ## Hope you find this readme useful and clear.
