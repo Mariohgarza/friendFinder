@@ -251,17 +251,25 @@
         // AJAX post the data to the friends API.
         $.post("/api/friends", userData, function(data) {
 
-          console.log("data: " + data);
+          console.log(data);
           // friendsArray.push(userData);
           //   console.log(friendsArray);
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+        
           $("#match-name").text(data.name);
           $("#match-img").attr("src", data.photo);
-
+          
           // Show the modal with the best match
           $("#results-modal").modal("toggle");
 
-        });
+
+        }).fail(function() {
+           console.log("test failed");
+             $("#match-name").text("Sorry, you're destined to be lonely!");
+            $("#match-img").attr("src", "http://www.thamesvalleypartnership.org.uk/wp-content/uploads/sad-person.jpg");
+
+            $("#results-modal").modal("toggle");
+          });
       } else {
         alert("Please fill out all fields before submitting!");
       }

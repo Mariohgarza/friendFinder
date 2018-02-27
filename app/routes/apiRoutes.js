@@ -1,4 +1,3 @@
-
 var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
@@ -64,5 +63,8 @@ module.exports = function(app) {
       res.json(jsonResult[0]); 
   });
 
+    app.get("/*", function(req, res) {
+      res.redirect("/")
+    });
 }
 
